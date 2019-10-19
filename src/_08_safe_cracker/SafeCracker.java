@@ -23,7 +23,7 @@ public class SafeCracker {
 		 */
 
 	}
-
+void tryCode("");
 	static void tryCode(int guess) {
 		System.out.println("trying " + 9999999);
 
