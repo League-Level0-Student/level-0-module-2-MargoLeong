@@ -1,3 +1,4 @@
+
 //    Copyright (c) The League of Amazing Programmers 2013-2019
 //    Level 0
 //
@@ -10,7 +11,7 @@ public class IntroToRandom {
 		int i = 25;
 		int j = 75;
 		int num = 0;
-//Finished
+		// Finished
 		// 3 Now to make num random.
 		// 3a. Create an object of the Random class, Hint: Random ran = new Random()
 		Random num1 = new Random();
@@ -22,8 +23,8 @@ public class IntroToRandom {
 
 		// 5. Now limit the value of num to be between 25 and 75. Hint: ((highest value
 		// - lowest value)+1) + lowest value
-		number = new Random().nextInt(51)+25;
-		
+		number = new Random().nextInt(51) + 25;
+
 		// 6. Challenge: Limit the value of num to be between -222 and 88
 		// 1. Print out the value of num
 		System.out.println(number);

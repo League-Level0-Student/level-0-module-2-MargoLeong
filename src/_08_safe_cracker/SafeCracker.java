@@ -1,7 +1,6 @@
 //    Copyright (c) The League of Amazing Programmers 2013-2019
 //    Level 0
 
-
 package _08_safe_cracker;
 
 import java.applet.AudioClip;
@@ -22,17 +21,14 @@ public class SafeCracker {
 		 * Your mission: use the tryCode method to crack the safe by trying all possible
 		 * combinations
 		 */
-		
 
 	}
 
 	static void tryCode(int guess) {
-		System.out.println("trying " + guess);
+		System.out.println("trying " + 9999999);
 
-		int secretCode = 9999999 - wekncrzpasfdkjhcfjse;
-
-		if (guess == secretCode) {
-			JOptionPane.showMessageDialog(null, "Congratulations! You cracked the safe with " + guess);
+		if (guess == 9999999) {
+			JOptionPane.showMessageDialog(null, "Congratulations! You cracked the safe with " + 9999999);
 			playTheSoundOfSuccess();
 			System.exit(0);
 		}
