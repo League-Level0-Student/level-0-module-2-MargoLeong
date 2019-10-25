@@ -13,7 +13,7 @@ void draw() {
     //  (you have to figure out what part of your code to change)
 
     //2. Draw an ellipse of height and width 10. Make sure to use your variable for the X position.
- 
+ ellipse(10,10,30,30);
     //6. Use the playSound() method to play a ding when your dot crosses the finish line. 
 }
 
