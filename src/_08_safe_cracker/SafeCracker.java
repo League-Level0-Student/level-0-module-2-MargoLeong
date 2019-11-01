@@ -23,9 +23,9 @@ public class SafeCracker {
 		 */
 		for(int i = 0; i < 1000000; i++) {
 			tryCode(i);
-		}	
+			
 		}
-	
+	}
 
 	static void tryCode(int guess) {
 		System.out.println(guess);
@@ -36,7 +36,7 @@ public class SafeCracker {
 			System.exit(0);
 		}
 	}
-
+	
 	private static void playTheSoundOfSuccess() {
 		try {
 			AudioClip sound = JApplet.newAudioClip(SafeCracker.class.getResource("me-gusta.wav"));
