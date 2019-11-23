@@ -6,14 +6,14 @@ public class RollerCoaster {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String height = null;
-		JOptionPane.showInputDialog(null, "How Tall Are You?____in inches");
-		Integer.parseInt(height);
-	 height=JOptionPane.showInputDialog(null,"how tall are you?");
-		
-			JOptionPane.showMessageDialog(null,"you need to grow before you come on to this roller coaster");
-		
+		String height = "";
+		height = JOptionPane.showInputDialog(null, "How Tall Are You?____in inches");
+		int height2 = Integer.parseInt(height);
+
+		if (height2 > 48) {
+			JOptionPane.showMessageDialog(null, "you can come on the roller coaster!");
+		} else if (height2 <= 48) {
+			JOptionPane.showMessageDialog(null, "you cannot ride on this roller coaster!");
 		}
 	}
-
-
+}

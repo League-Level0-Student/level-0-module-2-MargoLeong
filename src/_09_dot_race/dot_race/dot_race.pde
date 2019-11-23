@@ -13,18 +13,8 @@ void draw() {
     if (mousePressed){
       
       ellipse(xpos,50,10,10);
-      xpos++;
-      xpos++;
-      xpos++;
-      xpos++;
-      xpos++;
-      xpos++;
-      xpos++;
-      xpos++;
-      xpos++;
-      xpos++;
-      xpos++;
-      xpos++;
+      xpos+=5;
+  
     }
 
 
@@ -34,8 +24,9 @@ void draw() {
  ellipse(xpos,50,10,10);
 
     //6. Use the playSound() method to play a ding when your dot crosses the finish line. 
- 
-
+ if (xpos>800){
+ playSound();
+ }
 }
 import ddf.minim.*;
 boolean soundPlayed = false;
